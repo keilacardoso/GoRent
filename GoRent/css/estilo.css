@@ -1,0 +1,164 @@
+body,body *{
+    margin: 0;
+    padding: 0;
+    font-family:"Calibri" ;
+}
+
+/*classes*/
+.conteudo{
+    width: 80%;
+    margin:10px auto; /* margin top/bottom e right/left*/
+}
+.destaqueMenu{
+    background-color:rgb(132, 165, 235);
+    padding: 5px;
+    cursor:default;
+}
+.destaqueMenu:hover{
+    text-decoration:none;
+}
+.w15{
+    width: 15%;
+}
+.imgContent{
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    display:flex;
+}
+.imgContent img{
+    width: 100%;
+    margin:0 0 0 17%;
+}
+.showServicos{
+    margin:5px;
+    border: 1px solid white;
+    float:left;
+    width:180px;
+}
+.showServicos:hover{
+    border:1px solid white;
+}
+.showServicos img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.descricao{
+    margin-left: 3px;
+    text-align: center;
+}
+.boxModel{
+    width:800px;
+    border: 1px solid white;
+    margin-left: 18%;
+}
+.pngSegmentos{
+    width:60%;
+    height: auto;
+    display: block;
+    margin-left:20%;
+}
+.formulario{
+    border-radius: 5px;
+    background-color:(132, 165, 235);
+    padding: 20px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+div.icones{
+    display:flex;
+    flex-direction: column;
+    padding: 3% 10% 0 5%;  
+}
+div.icones img{
+    width: 100%;
+} 
+div.icones p{
+    width: 70%;
+    display: flex;
+    margin-left: 20px;
+}
+
+/*tags*/
+ol,ul{
+    padding: 0 0 0 40px;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(58, 58, 58);
+    color:white
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 30%;
+    background-color: rgb(58, 58, 58);
+    color:white
+}
+footer p{
+    margin-right: 20%;
+}
+footer img{
+    width:6%; 
+    margin-left:85%;
+}
+header{
+    height: 20vh;
+}
+header img{
+    width: 20%;
+    position: absolute;
+    top:-4vh;
+    left: 3%;   
+}
+nav{
+    background-color:rgb(58, 58, 58);
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block; /* transforma o conteúdo em linha */
+    background-color:rgb(58, 58, 58);
+    color:white;
+    margin: 0 1% 0 0;
+    padding: 0.5%;  
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-family:Verdana;   
+}
+nav ul li a:hover{
+    color: rgb(9, 96, 107);
+}
+h2, hr{
+    margin-left: 6vh;
+    color: #779ACF;   
+}
+p{
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    padding:auto;
+} 
+h3{
+    padding: 3vh;
+    margin-left: 50px;
+} 
+
