@@ -7,7 +7,7 @@ body,body *{
 /*classes*/
 .conteudo{
     width: 80%;
-    margin:10px auto; /* margin top/bottom e right/left*/
+    margin:15px auto; 
 }
 .destaqueMenu{
     background-color:rgb(132, 165, 235);
@@ -59,36 +59,25 @@ body,body *{
     display: block;
     margin-left:20%;
 }
-.formulario{
-    border-radius: 5px;
-    background-color:(132, 165, 235);
-    padding: 20px;
-}
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 div.icones{
     display:flex;
     flex-direction: column;
-    padding: 3% 10% 0 5%;  
 }
-div.icones img{
-    width: 100%;
+div.icones i{
+    padding: 2.3% 0 0 5%;
 } 
 div.icones p{
-    width: 70%;
-    display: flex;
-    margin-left: 20px;
+    width: 50%;
+    display:flex;
+    margin: -1% 0 0 3.5%;
+    text-align: justify;
+}
+.formContato{
+    border-radius: 5px;
+    background-color: white;
+    padding: 50px;
+    margin-left: 25%;
+    
 }
 
 /*tags*/
@@ -103,17 +92,18 @@ header{
 }
 footer{
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     margin-top: 30%;
     background-color: rgb(58, 58, 58);
     color:white
 }
 footer p{
-    margin-right: 20%;
+    margin-top: -2%;
 }
 footer img{
     width:6%; 
-    margin-left:85%;
+    margin-left:90%;
+    margin-top:-5%;
 }
 header{
     height: 20vh;
@@ -147,11 +137,11 @@ nav ul li a:hover{
     color: rgb(9, 96, 107);
 }
 h2, hr{
-    margin-left: 6vh;
+    margin-left: 4%;
     color: #779ACF;   
 }
 p{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 h4{
@@ -161,4 +151,40 @@ h3{
     padding: 3vh;
     margin-left: 50px;
 } 
+label{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 -2.5% 0;
+}
+input[type=text]{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:0 0 0 7%;
+    border-radius: 3px;
+
+}
+input[type=submit]{
+    width:52.5%;
+    background-color: green;
+    color:white;
+    padding: 10px;
+    margin: 1% 0 0 7%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type=text]:hover{
+background-color:(58, 58, 58); 
+}
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+    margin: 1% 0 0 7%;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
 
