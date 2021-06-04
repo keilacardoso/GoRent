@@ -1,3 +1,4 @@
 # GoRent - Outsourcing de Equipamentos
  Criei a GoRent para praticar meus estudos de HTML e CSS. 
- Ele é uma página onde é possível visualizar um menu, imagens, links, estilos em Css e muito mais.
+ GoRent é um nome que criei pensando em um negócio de Outsourcirng de Equipamentos de Informática. Seja Smartphones, Notebooks, Impressoras e etc.
+ Nesta página onde é possível visualizar um menu, imagens, animação em CSS, links, estilos em CSS e muito mais. 
