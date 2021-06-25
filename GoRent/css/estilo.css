@@ -125,17 +125,17 @@ div.icones p{
     padding: 0 0 0 3%;
     margin:-11% 0 0 25%;
 }
-div.galery{
+.galery{
     margin:2% 0 0 15%;
     width: 300px;
     height: 10%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
-div.galery img{
+.galery img{
     width: 60%;
 }
-div.galery p{
+.galery p{
     text-align: left;
     margin: 0 0 0 5%;
 }
